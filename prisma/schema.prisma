@@ -17,7 +17,7 @@ datasource db {
 model Barbershop {
   id          String              @id @default(uuid())
   name        String
-  adress      String
+  address     String
   description String
   imageUrl    String
   phones      String[]
